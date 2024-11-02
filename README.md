@@ -12,7 +12,7 @@ Python GUIs Design
 
 ![python](Images/PyQt.jpg)
 
-## General Reveiw:
+# General Reveiw:
    * A workshop for designing Graphical User Interfaces `GUI` With python.
    * There is many python librarys To create 'GUI' like (PyGame, tkinter)
    * We Will Use A frameWork called 'PyQt5'.
@@ -49,7 +49,8 @@ Python GUIs Design
 
 ## Requirements:
 
-![NOTE]: this requirments required if you want to Do the parctical application.
+> ![NOTE]
+> this requirments required if you want to Do the parctical application.
 
 1. ### Laptop:
    * I recommend Windows 10/11 as an operating system.
