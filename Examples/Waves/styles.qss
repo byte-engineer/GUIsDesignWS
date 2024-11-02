@@ -1,0 +1,124 @@
+QMainWindow {
+    background-color: #0F0E0E;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+QTabBar::tab {
+    background: #181818;
+    color: #E0E0E0;
+    border: black solid 1px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    padding: 8px;
+    min-width: 100px;
+}
+
+QTabBar::tab:selected {
+    background: #1f1f1f;
+    border-bottom: none;
+}
+
+QTabWidget::pane {
+    background: #1f1f1f;
+    color: #E0E0E0;
+    border: black solid 1px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom: none;
+    padding: 8px;
+    min-width: 100px;
+}
+
+
+QMenuBar {
+    color: white;
+    background-color: #0F0E0E;
+    border: none;
+}
+
+QMenuBar::item {
+    background-color: #0F0E0E;
+    padding: 4px 16px;
+}
+
+QMenuBar::item:selected {
+    background-color: #1F1F1F;
+    border-radius: 4px;
+    border: 5px;
+    border-top: #1F87D8 solid 1px;
+}
+
+QMenu {
+    color: white;
+    background-color: #333232;
+}
+
+QMenu::item {
+    padding: 4px 16px;
+}
+
+QMenu::item:selected {
+    background-color: #1F1F1F;
+    border: 5px;
+} 
+
+
+QLabel {
+    color: white;
+    font-size: medium;
+}
+
+
+QPushButton {
+    background-color: #303030;
+    border: 2px solid transparent;
+    border-radius: 3%;
+    color: white;
+    padding: 3px 0px;
+}
+
+QPushButton:hover {
+    border-radius: 0px;
+    background-color: #3f3f3f;
+    border-top: 1px solid #1F87D8;
+}
+
+QPushButton:pressed {
+    border-radius: 0px;
+    background-color: #616060;
+    border-top: 1px solid #1F87D8;
+}
+
+QComboBox {
+    color: white;
+    background-color: #303030;
+    border: 1px solid transparent;
+    padding: 4px;
+}
+
+QComboBox::drop-down {
+    border: transparent;
+    color: #1e80cc;
+}
+
+QComboBox, QAbstractItemView {
+    background-color: #303030;
+    selection-background-color: #3f3f3f;
+    selection-color: white;
+    padding: 5px;
+}
+
+QComboBox, QAbstractItemView::item {
+    padding: 1px;
+    border: white solid 3px;
+}
+
+
+QSpinBox, QDoubleSpinBox {
+    color: white;
+    background-color: #303030;
+    border: 1px solid #292424;
+    padding: 4px;
+}
