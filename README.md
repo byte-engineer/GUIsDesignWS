@@ -49,7 +49,7 @@ Python GUIs Design
 
 ## Requirements:
 
-> ![NOTE]
+> [!NOTE]
 > this requirments required if you want to Do the parctical application.
 
 1. ### Laptop:
