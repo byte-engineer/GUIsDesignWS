@@ -21,10 +21,11 @@ Python GUIs Design
 
 # What are we aiming for?
    * We will learn about GUIs.
+   * Basics of PyQt5 framework.
    * Some projects done with this frameWorks. 
-   * Basics About PyQt.
    * We will jump to QtDesigner.
    * We will create a simple GUI for logging interface.
+   * Basics About codingin in PyQt.
 
 
 # What is GUIs?
