@@ -25,26 +25,26 @@ Python GUIs Design
    * Some projects done with this frameWorks. 
    * We will jump to QtDesigner.
    * We will create a simple GUI for logging interface.
-   * Basics About codingin in PyQt.
+   * Basics About coding in PyQt.
 
 
 # What is GUIs?
    * It stands for Graphical User Interface.
    * It make dealing with the programe way easier.
    * GUIs make the programmes accessable to non-programmers and normal people.
-   * GUIs are closer to public use.
+   * GUIs are highly required in commercial projects.
    * Almost all programmes has a front-end which care about designes and Back-end which care about main implementation.
-
 
 
 # Requirements:
 > [!NOTE]
 > this requirments required if you want to Do the parctical application.
 
+
 ### 1. Laptop:
    * I recommend Windows 10/11 as an operating system.
    * NOTE: personally i don't know how to deal with macOS or linux So use it in your responsibility.
-   * I don't know if this Will run on (portable devices like tablets or smartphone) but as i know python dosn't run on 'ARM' architecture. 
+   * I don't know if this Will run on (portable devices like tablets or smartphone) but as i know python dosn't run on 'ARM' architecture.
 ### 2. programming knowledge:
    * In this workshope, We will use python to deal with (Qt frameWork).
    * In this workshop I will NOT teatch you python basics.
