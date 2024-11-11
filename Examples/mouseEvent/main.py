@@ -10,17 +10,19 @@ class main(QMainWindow):
         self.UI()
 
     def UI(self):
-        self.setGeometry(300, 200, 300 ,300)
+        self.setGeometry(300, 200, 300 ,50)
 
         container = QWidget()
         self.setCentralWidget(container)
+
+        disclbl = QLabel('Click and drag to change the values')
 
         layout = QVBoxLayout()
         container.setLayout(layout)
 
         self.lblMouse = QLabel('Mouse position: (??, ??)')
+        layout.addWidget(disclbl)
         layout.addWidget(self.lblMouse)
-
 
     def mouseMoveEvent(self, event):
         

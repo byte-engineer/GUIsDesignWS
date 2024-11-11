@@ -18,7 +18,6 @@ Python GUIs Design
    * We Will Use A frameWork called 'PyQt5'.
 
 
-
 # What are we aiming for?
    * We will learn about GUIs.
    * Basics of PyQt5 framework.
@@ -52,7 +51,7 @@ Python GUIs Design
    * People who come from Other programming languages I think thay will be able to understand python code easily it's easiest programming language in the earth. 
 ### 3. Install python 3.__ interpreter:
    * Official website: [python](https://www.python.org/downloads/)
-   * **NOTE:** Do NOT Forget to add python in your system PATH. ❗Please Please Please.
+   * **NOTE:** Do **NOT** Forget to add python in your system PATH. ❗Please Please Please.
    ![pythonPath](Images/pythonPath.PNG)
    * New macOS versions has python pre-installed as I know.
    * Make sure you installed 'pip' Official python package manager.
@@ -65,7 +64,7 @@ Python GUIs Design
    * Use this commend `pip install PyQt5`.
    * If you want To remove It later use the command 'pip uninstall PyQt5'.
    * Use vertual environment if you know it. But I will not use it for educatianal reasons.  Actually I don't care.
-   <!-- * TODO: Does PyQt-tools Downloaded with the library?? -->
+   <!--  TODO: Does PyQt-tools Downloaded with the library?? -->
 
 
 # INFO About PyQt5 [^1]
@@ -80,7 +79,7 @@ Python GUIs Design
 
 ![logos](Images/APSUI.jpg)
 
-[^1]: Actually we can use the recent version (PyQt6) but I used to use older version(o_o). Also there is no big differece between thim.
+[^1]: Actually we can use the latest version (PyQt6) but I used to use older version(o_o). Also there is no big differece between thim.
 
 
 

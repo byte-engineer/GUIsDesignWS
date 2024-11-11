@@ -18,7 +18,11 @@ How Does GUIs Work.
 * The Y-coordinate is starting from the top to the buttom.
 * Some time we have some issues on drowing pixel's.
 
-![Coordinate-system](../Images/pixels.png)
+<p align="center">
+  <img src="../Images/pixels.png" alt="Coordinate-system" width="600"> 
+  <br>
+    Look at the cordinate sysem on the figur above.
+</p>
 
 ## Events
 * Events are the response of the graphical UI to the user input (e.g mouse, keys)
@@ -28,4 +32,24 @@ How Does GUIs Work.
 * There is an event triggered every frame implemented by the function `event`.
 * You can run example `mouseEvent` and a small window will pop-up as shown on the figure bellow.
 
-![Coordinate-system](../Images/MouseEvent.png)
+<p align="center">
+  <img src="../Images/MouseEvent.png" alt="Mouse-Event" width="400"> 
+  <br>
+    When we click on the mouse, an event triggered<br>and change the values.
+</p>
+
+## Signals & Slots
+* slotes and signals are a kind of tannels to connect front-end with the back-end.
+* When the user click a button there is some mechanism the trigger a needed code or action.
+* In PyQt5 slots are implemented by inherit `QObject` class, So thay are all same.
+
+```python
+from PyQt5.QtWidgets import QPushButton
+
+# Create an instance from `QPushButton` class.
+button = QPushButton('click me!', window)
+
+# If the button clicked it calls some function or action.
+button.clicked.connect(action)
+```
+
